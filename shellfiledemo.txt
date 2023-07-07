@@ -13,7 +13,7 @@ echo "This is a shell $WORD"
 # Display the contents of the variable using an alternative syntax.
 echo "This is a shell ${WORD}"
 # Append text to the variable.
-echo "${WORD}ing is fun!"
+echo "${WORD}ing is fun!" yes good
 # Show how NOT to append text to a variable.
 # This doesn't work:
 echo "$WORDing is fun!"
